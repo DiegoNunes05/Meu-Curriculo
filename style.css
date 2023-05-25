@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    margin-left: 28%;
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+div.educacao,
+div.habilidades-dev,
+div.experiencia,
+div.resumo-habilidades,
+div.certificados {
+  max-width: 800px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+h1 {
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+h3 {
+    margin-bottom: 5px;
+}
+
+h4 {
+    margin-bottom: 4px;
+}
+
+#experiencia{
+    margin-left: 1px;
+}
+
+.cabecalho {
+    margin-left: 8px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(22, 42, 156);
+}
